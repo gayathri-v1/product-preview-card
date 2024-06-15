@@ -1,14 +1,21 @@
 .attribution { font-size: 11px; text-align: center; 
-    padding:7px 0;   }
+    
+   }
     .attribution a { color: hsl(228, 45%, 44%);
         
      }
      
       
     body{
-        background-color: bisque;
+        background-color: hsl(30, 38%, 92%);
             margin:0;
             padding:0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; 
+            box-sizing: border-box;
+
           
         
     } 
@@ -123,10 +130,10 @@
         
     }
     picture .image{
-        background: url('image-product-mobile.jpg') no-repeat center center/cover;
-        height:200px;
-        width:240px;
-        max-width:100%;
+        background: url('/images/image-product-mobile.jpg') no-repeat center center/cover;
+        height:300px;
+        width:170px;
+        /* max-width:100%; */
         border-radius: 10px 10px 0 0;
         
     
@@ -149,9 +156,9 @@
         
     }
     picture .image{
-        background: url('image-product-desktop.jpg')no-repeat center center/cover;
+        background: url('/images/image-product-desktop.jpg')no-repeat center center/cover;
         height:380px;
-        width:240px;
+        width:300px;
         border-radius: 10px 0 0 10px;
 
 
